@@ -5,7 +5,7 @@ window.onload = function()
   {
     (function()
     {
-      const canvas = document.getElementById('canvas');
+      const canvas = document.getElementById('output');
       const context = canvas.getContext('2d');
       
       function id(i){return document.getElementById(i);}
