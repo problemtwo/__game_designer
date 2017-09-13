@@ -27,7 +27,7 @@ window.onload = function()
         context.closePath();
       }
       
-      eval(id('input').value);
+      try{eval(id('input').value);}catch(err){id('log').value = err.message;}
     })();
   };
 };
